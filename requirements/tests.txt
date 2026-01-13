@@ -8,15 +8,15 @@
 attrs==21.4.0
     # via pytest
 coverage==6.4.1
-    # via -r requirements/tests.in
-distlib==0.3.4
+    # via -r tests.in
+distlib==0.4.0
     # via virtualenv
-filelock==3.7.1
+filelock==3.20.3
     # via
     #   tox
     #   virtualenv
 flake8==4.0.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 iniconfig==1.1.1
     # via pytest
 mccabe==0.6.1
@@ -25,7 +25,7 @@ packaging==21.3
     # via
     #   pytest
     #   tox
-platformdirs==2.5.2
+platformdirs==4.5.1
     # via virtualenv
 pluggy==1.0.0
     # via
@@ -42,16 +42,14 @@ pyflakes==2.4.0
 pyparsing==3.0.9
     # via packaging
 pytest==7.1.2
-    # via -r requirements/tests.in
+    # via -r tests.in
 six==1.16.0
-    # via
-    #   tox
-    #   virtualenv
+    # via tox
 toml==0.10.2
     # via tox
 tomli==2.0.1
     # via pytest
 tox==3.25.0
-    # via -r requirements/tests.in
-virtualenv==20.14.1
+    # via -r tests.in
+virtualenv==20.36.1
     # via tox
